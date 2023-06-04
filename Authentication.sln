@@ -5,11 +5,13 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "Authentication\Authentication.csproj", "{B37FB368-8992-4A7A-9FE8-405B86E58C22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization", "Authorization\Authorization.csproj", "{A39FFAD7-3E52-4E19-BF01-2B585D3750E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization", "Authorization\Authorization.csproj", "{A39FFAD7-3E52-4E19-BF01-2B585D3750E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roles", "Roles\Roles.csproj", "{5B5BDB7C-F302-4BF5-893B-CDA398E67AB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roles", "Roles\Roles.csproj", "{5B5BDB7C-F302-4BF5-893B-CDA398E67AB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolesIdentity", "RolesIdentity\RolesIdentity.csproj", "{25A3F063-20AB-4B0C-B24D-39068481C9F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RolesIdentity", "RolesIdentity\RolesIdentity.csproj", "{25A3F063-20AB-4B0C-B24D-39068481C9F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationSchemes", "AuthenticationSchemes\AuthenticationSchemes.csproj", "{FC208352-C109-4829-A319-C3FD8C759276}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{25A3F063-20AB-4B0C-B24D-39068481C9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25A3F063-20AB-4B0C-B24D-39068481C9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25A3F063-20AB-4B0C-B24D-39068481C9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC208352-C109-4829-A319-C3FD8C759276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC208352-C109-4829-A319-C3FD8C759276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC208352-C109-4829-A319-C3FD8C759276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC208352-C109-4829-A319-C3FD8C759276}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
