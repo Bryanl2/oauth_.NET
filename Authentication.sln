@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roles", "Roles\Roles.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RolesIdentity", "RolesIdentity\RolesIdentity.csproj", "{25A3F063-20AB-4B0C-B24D-39068481C9F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationSchemes", "AuthenticationSchemes\AuthenticationSchemes.csproj", "{FC208352-C109-4829-A319-C3FD8C759276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationSchemes", "AuthenticationSchemes\AuthenticationSchemes.csproj", "{FC208352-C109-4829-A319-C3FD8C759276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationWithSPA", "AuthenticationWithSPA\AuthenticationWithSPA.csproj", "{0B07C1C0-FCC1-43F3-8191-834967C5B52E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FC208352-C109-4829-A319-C3FD8C759276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC208352-C109-4829-A319-C3FD8C759276}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC208352-C109-4829-A319-C3FD8C759276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B07C1C0-FCC1-43F3-8191-834967C5B52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B07C1C0-FCC1-43F3-8191-834967C5B52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B07C1C0-FCC1-43F3-8191-834967C5B52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B07C1C0-FCC1-43F3-8191-834967C5B52E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
